@@ -61,4 +61,7 @@ pause.addEventListener('click' , ()=>{
     }
 })
 
+function ResetIntervals(){
+    clearInterval(intervals)
+}
 
