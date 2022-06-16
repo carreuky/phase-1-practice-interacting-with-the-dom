@@ -60,24 +60,5 @@ pause.addEventListener('click' , ()=>{
 
     }
 })
-// function callCounter(){
-//     if(setTime === 0){
-//         setTime = showValue;
-//         counter2 += 1
-//     }else if( showValue !== setTime){
-
-//         likesSet()
-
-//         setTime = 0;
-//         anArray = [];
-//         counter2 = 0;
-//     } else if(showValue === setTime){
-//         anArray.push(counter2 += 1)
-//     }
-    
-// }
-// function ResetIntervals(){
-//     clearInterval(intervals)
-// }
 
 
