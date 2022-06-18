@@ -22,10 +22,10 @@ show.innerHTML=showValue--
 
 heartlike.addEventListener('click',()=>{
     if(show===0){
-        show.innerHTML=showValue++
+        show.innerHTML=showValue
     }
 li=document.createElement('li')
-li.innerHTML=`${show.innerHTML=showValue++} likes ${heartlike.innerHTML}`
+li.innerHTML=`${show.innerHTML=showValue++} liked ${heartlike.innerHTML} 1 time`
 submitLikesNo.appendChild(li)
 })
 
@@ -56,12 +56,14 @@ pause.addEventListener('click' , ()=>{
         submit.disabled=false;
         ResetIntervals()
         intervals = setInterval(counter, 1000)
-
-
     }
 })
 
 function ResetIntervals(){
     clearInterval(intervals)
+}
+function counter(){
+    showValue+=1;
+    show.innerText=showValue
 }
 
